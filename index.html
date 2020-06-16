@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="main.css">
+<title>Tax Information Form</title>
+</head>
+<body>
+
+<nav class="sidenav">
+    <h2>Please Provide Required Details</h2>
+        <div class ="container">
+          <label for="Taxpayer_type1"> 
+          <input type="checkbox" class="option-input checkbox" name="Taxpayer_type1" >
+          Tax Payer Type
+        </label>   
+      <br>
+      <label for="Taxpayer_background_information_part1"> 
+      <input type="checkbox" class="option-input checkbox" name="Taxpayer_background_information_part1" >
+      Tax Payer Background Information Part 1
+    </label>    
+      <br>
+      <label for="Taxpayer_background_information_part1"></label>
+      <input type="checkbox" class="option-input checkbox" name="Taxpayer_background_information_part1" >
+      Tax Payer Background Information Part 2
+    </label> 
+      <br>
+      <label for="Tax_registration_information"></label>
+      <input type="checkbox" class="option-input checkbox" name="Tax_registration_information" >
+       Tax Registration Information 
+      </label>
+     </div>        
+</nav>
+
+<main>
+  <div class="wrapper">
+    <div class="content">
+     <h1>General Information</h1>
+    </div>
+
+ <div class="form">
+    <div class="top-form">
+       <div class="inner-form">
+           <div class="label">Tax filing for the year</div>
+           <input type="date" />
+       </div>
+
+     <div class="inner-form">
+         <div class="label">Alphanumeric Tax Code</div> 
+         <input type="text" name="name" class="field" required pattern="[a-zA-Z0-9]+" />
+     </div>
+   
+ <div class="middle-form">
+    <div class="inner_form">
+     <div class="label">Nationality</div>
+     <input type="text" >
+   </div>
+ </div>
+
+   <div class="inner_form">
+        <div class="label">Foreign Tax Code (if applicable)</div>
+         <input type="text">
+   </div>
+ 
+            <div class="btn">
+            <div class="btn1"> 
+                <div class="inner-form">
+                    <input type="button" value="BACK">
+                </div>
+            </div>
+            <div class="btn2"> 
+                <div class="inner-form">
+                    <input type="button" value="SUBMIT">
+                </div>
+            </div>
+            </div>
+</div>
+</div>
+</div>
+</main> 
+
+   
+</body>
+</html> 
